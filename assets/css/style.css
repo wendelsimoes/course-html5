@@ -1,5 +1,8 @@
 body {
     background-color: #e0dcdc;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
@@ -8,6 +11,16 @@ body {
 }
 
 #title, .sub-title, .post-title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
     color: #505050;
 }
 
@@ -22,10 +35,6 @@ body {
     width: 8rem;
 }
 
-#main_photo {
-    width: 40rem;
-}
-
 .post {
     background-color: #fff;
     padding: 15px;
@@ -37,8 +46,20 @@ body {
 .post-content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post-image {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts-list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts-list li a {
+    text-decoration: none;
 }
